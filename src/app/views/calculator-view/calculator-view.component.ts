@@ -7,7 +7,8 @@ import { CalculatorComponent } from '@/components/calculator/calculator.componen
   template: `
     <div
       class="w-full mx-auto rounded-xl bg-gray-100 shadow-xl text-gray-800 relative overflow-hidden"
-      style="max-width:300px">
+      style="max-width:300px"
+    >
       <calculator />
     </div>
   `,

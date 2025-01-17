@@ -35,8 +35,8 @@ export class CalculatorComponent {
 
     this.handleClick(keyValue);
 
-    this.calculatorButtons().forEach((button) =>
-      button.keyboardPressedStyle(keyValue),
+    this.calculatorButtons().forEach(button =>
+      button.keyboardPressedStyle(keyValue)
     );
   }
 }
